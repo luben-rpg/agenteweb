@@ -1,0 +1,9 @@
+/* Tokens Premium */
+:root {
+  --color-primary: #6366f1; --color-secondary: #06b6d4; --color-accent: #10b981;
+  --color-bg: #09090b; --color-text: #fafafa; --color-text-muted: #a1a1aa;
+}
+/* Estilos Globales */
+.glass { background: linear-gradient(135deg, rgba(24, 24, 27, 0.7), rgba(24, 24, 27, 0.4)); backdrop-filter: blur(24px); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; }
+.btn { padding: 1rem 2rem; border-radius: 9999px; font-weight: 600; cursor: pointer; border: none; }
+.animate-in { opacity: 0; transform: translateY(20px); transition: all 0.8s ease-out; }
